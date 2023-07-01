@@ -1,0 +1,7 @@
+{
+  "root": true,
+  "allowCredentials": true,
+  "allowHeaders": ["X-Requested-With", "Authorization", "Content-Type", "Accept"],
+  "allowMethods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+  "maxAge": 3600
+}
