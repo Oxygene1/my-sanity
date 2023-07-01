@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import { client } from "./client";
+import { client } from "./Client";
 import imageUrlBuilder from "@sanity/image-url";
 function App() {
   const [data, setData] = useState(null);
